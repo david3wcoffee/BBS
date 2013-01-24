@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/title_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="clip_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_topic_new_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+        
+            android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
+            android:textColor="@color/title_text" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right" >
+
+            <ImageButton
+                android:id="@+id/img_topic_new_attach"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="5dp"
+                android:background="@color/transparent"
+                android:src="@drawable/buttom_ic_attach" />
+
+            <ImageButton
+                android:id="@+id/img_topic_new_send"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="5dp"
+                android:background="@color/transparent"
+                android:src="@drawable/button_reply_send" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

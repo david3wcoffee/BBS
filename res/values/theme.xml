@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme" parent="@android:style/Theme.DeviceDefault.Light">
+
+        <!-- Window attributes -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleSize">40dip</item>
+        <item name="android:windowTitleStyle">@color/title_bg</item>
+        <item name="android:windowAnimationStyle">@color/gray</item>
+        <item name="android:windowTitleBackgroundStyle">@color/title_bg</item>
+  
+    </style>
+
+</resources>

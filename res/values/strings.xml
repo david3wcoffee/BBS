@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="title_bg">#e5edf0</color>
+    <color name="gray">#f0f0f0</color>
+    <color name="title_text">#478292</color>
+    <color name="transparent">#00000000</color> 
+    <color name="folder_hot">#e86c6a</color>
+    <color name="folder_new">#80ddff</color>
+    <color name="folder_digest">#ffcc88</color>
+
+    <string name="reply_input_content">输入回复内容</string>
+    <string name="app_name">魅族论坛</string>
+    <string name="topic_reply">回复</string>
+    <string name="topic_content">帖子</string>
+    <string name="loading">正在加载…</string>
+    <string name="fileDir">/sdcard/meizubbs</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新...</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh...</string>
+
+    <string-array name="forumsName">
+        <item>综合讨论</item>
+        <item>谈天说地</item>
+        <item>软件中心</item>
+    </string-array>
+    <string-array name="forumsURL">
+        <item>22</item>
+        <item>10</item>
+        <item>62</item>
+    </string-array>
+
+</resources>
